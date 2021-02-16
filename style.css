@@ -1,9 +1,10 @@
 body{
-    background: blue;
+    background: #171717;
     font-size: 18px;
+    font-family: 'Handlee', cursive;
 }
 .postcard{
-    background: yellow;
+    background: white;
     width: 600px;
     height: 400px;
     margin: auto;
@@ -35,4 +36,13 @@ input{
 }
 .right-part input{
     display: block;
+}
+.postcard-footer{
+    padding: 10px;
+    text-align: center;
+}
+.postcard-footer input [type=submit]{
+    border: none; 
+    border-bottom: 1px solid gray;
+    background: gray;
 }
