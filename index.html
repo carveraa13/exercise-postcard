@@ -9,7 +9,7 @@
 <body>
     <div class="main-content">
         <section>
-            <div class="postcard">
+            <form class="postcard" action="https://formspree.io/f/{form_id}" method="POST">
                 <div class="postcard-header">
                     <img src="https://github.com/breatheco-de/exercise-postcard/blob/learnpack/.learn/assets/4geeks.png?raw=true" alt="Logo">
                     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -22,15 +22,15 @@
                         <p>This is so cool, can;t wait to start doing more stuff!</p> 
                     </div>
                     <div class="right-part">
-                        <input type="text" name="">
-                        <input type="text" name="">
-                        <input type="text" name="">
+                        <input type="text" name="fullname" placeholder="Some Name">
+                        <input type="text" name="email" placeholder="Some Email">
+                        <input type="text" name="message" placeholder="Some Content">
                     </div>
                 </div>
                 <div class="postcard-footer">
                     <input type="submit" value="Send My Postcard">
                 </div>
-            </div>
+            </form>
         </section>
     </div>
 </body>
